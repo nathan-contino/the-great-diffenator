@@ -1,15 +1,15 @@
 {
   "$schema": "https://dl.viam.dev/module.schema.json",
-  "module_id": "natch:sig-diff-vision",
+  "module_id": "natch:the-great-diffenator",
   "visibility": "public",
   "url": "https://github.com/nathan-contino/the-great-diffenator/",
   "description": "Vision service that detects significant changes between images",
   "models": [
     {
       "api": "rdk:service:vision",
-      "model": "natch:sig-diff-vision:sig-diff-vision",
+      "model": "natch:the-great-diffenator:pixel-diff",
       "short_description": "A vision service that detects when images differ significantly from previous images",
-      "markdown_link": "README.md#model-natchsig-diff-visionsig-diff-vision"
+      "markdown_link": "README.md#model-natchthe-great-diffenatorpixel-diff"
     }
   ],
   "applications": null,

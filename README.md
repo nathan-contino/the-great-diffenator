@@ -1,8 +1,8 @@
-# Module sig-diff-vision 
+# Module the-great-diffenator
 
 A vision service that detects when images differ significantly from previous images. It compares each new image against a set of remembered images and returns detections when significant changes are found.
 
-## Model natch:sig-diff-vision:sig-diff-vision
+## Model natch:the-great-diffenator:pixel-diff
 
 A vision service that detects significant changes between images by comparing them against a set of remembered images.
 
@@ -12,9 +12,9 @@ The following attribute template can be used to configure this model:
 
 ```json
 {
-"image_memories": <int>,
-"required_diff": <float>,
-"input_camera": <string>
+  "image_memories": <int>,
+  "required_diff": <float>,
+  "input_camera": <string>
 }
 ```
 
