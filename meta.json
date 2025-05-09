@@ -1,0 +1,28 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "natch:sig-diff-vision",
+  "visibility": "public",
+  "url": "https://github.com/nathan-contino/the-great-diffenator/",
+  "description": "Vision service that detects significant changes between images",
+  "models": [
+    {
+      "api": "rdk:service:vision",
+      "model": "natch:sig-diff-vision:sig-diff-vision",
+      "short_description": "A vision service that detects when images differ significantly from previous images",
+      "markdown_link": "README.md#model-natchsig-diff-visionsig-diff-vision"
+    }
+  ],
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "dist/main",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64"
+    ]
+  }
+}
